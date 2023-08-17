@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container
+{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 350px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 20px;
+}
+.image_nft
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.image_nft:hover
+{
+    opacity: 0.5;
+}
+.img-hover
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 301px;
+    height: 301px;
+    margin-top: 24px;
+    position: relative;
+}
+.img-hover:hover
+{
+    background-color: #00FFF8;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.img-hover:hover::after {
+    content: url('images/icon-view.svg');
+    position: absolute;
+    top: 127.5px;
+    right: 127.5px;
+}
+.equilibrium
+{
+    display: flex;
+    width: 300px;
+    justify-content: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+.description
+{
+    width: 300px;
+    margin: 0px;
+    font-weight: 300;
+}
+.stats
+{
+    display: inline-flex;
+    width: 300px;
+    justify-content: space-between; 
+    font-size: 10px;
+    align-items: center;
+}
+.etherum, .div_time
+{
+    display: flex;
+    align-items: center;
+}
+.etherum
+{
+    color: hsl(178, 100%, 50%);
+}
+.div_time
+{
+    color: hsl(215, 51%, 70%);
+}
+.price
+{
+    font-weight: 300;
+    padding-left: 5px;
+}
+.time
+{
+    font-weight: 300;
+    padding-left: 5px;
+}
+hr
+{
+    background-color: hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+    width: 300px;
+    border-style: solid ;
+}
+.profile
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.image_profile
+{
+    width: 30px;
+    height: 30px;
+    border-style:solid;
+    border-radius: 100%;
+    border-color: white;
+    margin-right: 10px;
+    border-width: 1px;
+}
+.text, .jules
+{
+    font-weight: 400;
+    margin-right: 3px;
+    font-size: 15px;
+}
+.text, .description
+{
+    color: hsl(215, 51%, 70%);
+}
+.jules:hover
+{
+    color: #00FFF8;
+}
